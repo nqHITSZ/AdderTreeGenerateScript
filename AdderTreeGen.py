@@ -31,7 +31,8 @@ module AdderTree #(parameter
 )
 (
     input clk, //rst,
-    input din_valid, dout_valid,
+    input din_valid, 
+    output dout_valid,
 
 """%{'DATA_WIDTH':DATA_WIDTH,'RESULT_WIDTH':RESULT_WIDTH}
 

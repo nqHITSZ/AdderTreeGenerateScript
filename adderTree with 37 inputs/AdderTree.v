@@ -9,7 +9,8 @@ module AdderTree #(parameter
 )
 (
     input clk, //rst,
-    input din_valid, dout_valid,
+    input din_valid, 
+    output dout_valid,
 
     input [DATA_WIDTH-1:0] i_0,
     input [DATA_WIDTH-1:0] i_1,
